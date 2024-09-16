@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800&display=swap');
+
+body {
+    background: #ffe5e5;
+    font-family: Poppins;
+}
+
+.kilig img {
+    width: 200px;
+}
+
+.kilig {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3em;
+}
+
+/* Target the second image within the .kilig container */
+.kilig img:nth-of-type(2) {
+    width: 300px; /* Adjust this value to make the image larger */
+}
+
+/* Reduce gap between paragraphs with class "ay" */
+.ay {
+    margin-bottom: 0.5em; /* Adjust this value to reduce spacing */
+}
+
+/* Center-align the second paragraph */
+.ay:nth-of-type(2) {
+    text-align: center;
+}
